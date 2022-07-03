@@ -65,3 +65,55 @@ className group을 가진 영역에 hover상태일때 modifiy 할 수 있음
 form 에서 사용해보는 className
 required
 invaild
+
+2022.07.02
+
+4.8 More Modifiers
+html 태그 details
+summary : details 태그의 제목을 쓰는 부분
+아래 내용
+
+modifiers
+select:
+marker:
+file:
+
+modifiers 는 중첩가능
+file:hover:bg ...
+
+first-letter:
+
+4.9 Responsive Modifiers
+반응형을 위한 modifiers
+sm:
+md:
+lg:
+
+4.10 Responsive Modifiers Part Two
+landscape: 디바이스 가로 방향
+portrait: 디바이스 세로 방향
+
+4.11 Dark Mode
+dark:
+
+tailwind.config.js 내 darkMode: "media" or "class"
+
+4.12 Just In Time Compiler
+tailwind 3.0 이전 버전에서는 큰 css 파일에서 className을 사용하고
+배포할때 사용하지 않는 클래스명을 제거하는 프로세스가 있었음.
+
+3.0 부터 JIT 컴파일러가 className 을 사용하면 css 파일에 사용한 className 을 추가함
+그래서 className 중첩, 제공하는 text 크기 이외 지정한 px, background-image 지정 등이 가능해졌음
+
+text-[97851px] text-[#000]
+bg-[url('/vercel.svg')]
+
+5.0 Introdution
+
+5.1 Auth Part One
+
+    function cls(...classNames: string[]) {
+        return classNames.join(" ");
+    }
+
+5.2 Auth Part Two
