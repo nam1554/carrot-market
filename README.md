@@ -116,4 +116,20 @@ bg-[url('/vercel.svg')]
         return classNames.join(" ");
     }
 
+2022.07.03
+
 5.2 Auth Part Two
+
+Tailwind Forms 라 불리는 플러그인 설치
+
+npm i @tailwindcss/forms
+
+하단 form, button에 className 추가
+
+5.3 Home Screen
+
+https://heroicons.dev/ 아이콘 소스
+
+5.4 Item Detail
+
+[id].tsx 파일 생성
