@@ -133,3 +133,14 @@ https://heroicons.dev/ 아이콘 소스
 5.4 Item Detail
 
 [id].tsx 파일 생성
+
+2022.07.04
+
+5.5 Upload Item
+
+label 태그 안에 input file 을 넣으면 label 영역 클릭할 경우 파일 선택 열림
+input 태그를 숨기는간단한 테크닉이라고함
+
+5.6 Community
+
+className 들이 반복됨.. 컴포넌트로 만들어야할지도..
