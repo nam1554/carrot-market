@@ -144,3 +144,22 @@ input 태그를 숨기는간단한 테크닉이라고함
 5.6 Community
 
 className 들이 반복됨.. 컴포넌트로 만들어야할지도..
+
+2022.07.05
+
+5.7 Community Detail
+
+다른 페이지에 className 복사붙여넣기 해서 금방 구현
+명확하게 컴포넌트로 만들어야할 반복되는 요소들이 보임
+
+5.8 Write
+5.9 Chats
+제일 마지막 border 를 없애야하는 경우 last: modifier 를 사용할수 있고
+다른 방법은 divide 클래스를 사용할 수 있음
+divide : 자식 요소들 사이에 border 넣어줌
+
+5.10 Chats Detail
+
+inset-x-0 -> left-0 rigth-0 과 동일
+
+요소가 absolute 이면 부모요소는 relative 여야한다
