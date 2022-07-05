@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 
 const Upload: NextPage = () => {
   return (
-    <div className="px-4 py-16">
+    <div className="px-4 py-10">
       <div>
         <label className="w-full cursor-pointer text-gray-600 hover:border-orange-500 hover:text-orange-500 flex items-center justify-center border-2 border-dashed border-gray-300 h-48 rounded-md">
           <svg
@@ -19,7 +19,6 @@ const Upload: NextPage = () => {
               strokeLinejoin="round"
             />
           </svg>
-
           <input className="hidden" type="file" />
         </label>
       </div>
@@ -30,7 +29,7 @@ const Upload: NextPage = () => {
         >
           Price
         </label>
-        <div className="rounded-md relative flex items-center shadow-sm">
+        <div className="rounded-md relative flex  items-center shadow-sm">
           <div className="absolute left-0 pointer-events-none pl-3 flex items-center justify-center">
             <span className="text-gray-500 text-sm">$</span>
           </div>
@@ -49,12 +48,13 @@ const Upload: NextPage = () => {
         <label className="mb-1 block text-sm font-medium text-gray-700">
           Description
         </label>
+
         <textarea
-          className="mt-1 shadow-sm w-full focus:ring-orange-500 rounded-md border-gray-300 focus:border-orange-500"
+          className="mt-1 shadow-sm w-full focus:ring-orange-500 rounded-md border-gray-300 focus:border-orange-500 "
           rows={4}
         />
       </div>
-      <button className="mt-4 w-full bg-orange-500 hover:bg-orange-600 text-white py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 focus:outline-none ">
+      <button className="mt-5 w-full bg-orange-500 hover:bg-orange-600 text-white py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium focus:ring-2 focus:ring-offset-2 focus:ring-orange-500 focus:outline-none ">
         Upload product
       </button>
     </div>
