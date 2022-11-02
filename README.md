@@ -163,3 +163,9 @@ divide : 자식 요소들 사이에 border 넣어줌
 inset-x-0 -> left-0 rigth-0 과 동일
 
 요소가 absolute 이면 부모요소는 relative 여야한다
+
+5.11 Profile
+
+profile.tsx 파일 생성, UI 만듬
+
+5.12 Bought, Loved and Sold
