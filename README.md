@@ -169,3 +169,14 @@ inset-x-0 -> left-0 rigth-0 과 동일
 profile.tsx 파일 생성, UI 만듬
 
 5.12 Bought, Loved and Sold
+
+5.13 Edit Profile
+
+5.14 Streams
+
+aspect-video 비디오의 비율을 자동으로 줌
+aspect-square 사각형 비율 -> rounded-full 주면 원을 만들 수 있음
+
+5.15 Stream
+
+5.16 Add Stream
