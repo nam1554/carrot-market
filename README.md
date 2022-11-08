@@ -192,3 +192,57 @@ aspect-square 사각형 비율 -> rounded-full 주면 원을 만들 수 있음
 6.1 What is Prisma
 
 https://www.prisma.io/
+
+6.2 Prisma Setup
+
+vscode Extension: Prisma 설치
+
+schema.prisma model 작성
+
+6.3 What is PlanetScale
+
+https://planetscale.com/
+
+Vitess : https://planetscale.com/vitess
+
+6.4 Connecting to PlanetScale
+
+PlanetScale CLI 설치
+https://github.com/planetscale/cli#installation 에 설명 보고 설치
+
+pscale region list
+pscale database create carrot-market --region ap-northeast
+
+터미널에서 아래와 같이 cli 명령어 실행 -> secure tunnel 로 데이터베이스와 연결
+pscale connect carrot-market
+
+127.0.0.1:3386 과 같은 형태 url 나오면 .env 내 DATABASE_URL 에 입력 (mysql://127.0.0.1:3306/carrot-market)
+
+디비 비밀번호를 생성하고 로컬에 설치하는 등의 일을 하지 않아도됨
+
+6.5 Push To PlanetScale
+
+PlanetScale 에서 사용하는 Vitess 는 foreign key 개념?이 없음
+-> prisma referentialIntegrity 설정으로 도움을 받을 수 있음
+
+npx prisma db push 실행
+
+6.6 Prisma Client
+
+npx prisma studio
+
+npm i @prisma/client 설치
+
+npx prisma generate
+
+prisma 가 스키마를 확인하여 타입스크립트로 타입을 만들어줌
+..../node_modules/.prisma/client/index.d.ts
+
+const client = new PrismaClient(); 는 브라우저단에서 실행될 수 없음(당연히 디비client니까..)
+
+6.7 API Routes
+
+7.0 Introduction
+
+React Hook Form
+https://react-hook-form.com/
