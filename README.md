@@ -246,3 +246,56 @@ const client = new PrismaClient(); 는 브라우저단에서 실행될 수 없�
 
 React Hook Form
 https://react-hook-form.com/
+
+7.1 Making Forms Alone
+
+7.2 The Register Function
+
+const { register } = useForm();
+{...register("username")}
+
+7.3 Validation
+
+handleSubmit
+1번째 인자는 form이 유효할때 실행되는 함수
+2번째 인자는 form이 유효하지 않을때 실행되는 함수
+
+7.4 Validation part Two
+
+register option
+{...register("username", option객체)}
+
+7.5 Errors
+
+formState: { errors },
+useForm mode 옵션 onBlur, onChange 등
+
+7.6 Extras
+
+watch,
+setError,
+setValue,
+reset,
+resetField,
+
+8.0 Enter Form
+
+Input 컴포넌트 리팩토링
+Enter 페이지 수정
+
+8.1 Form Submission
+
+8.2 Clean Code part One
+
+8.3 Clean Code part Two
+
+8.4 withHandler
+
+8.5 Paths
+
+tsconfig.json
+
+"paths": {
+"@libs/_": ["libs/_"],
+"@components/_": ["components/_"]
+}
