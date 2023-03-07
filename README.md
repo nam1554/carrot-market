@@ -299,3 +299,16 @@ tsconfig.json
 "@libs/_": ["libs/_"],
 "@components/_": ["components/_"]
 }
+
+9 Authentication
+9.0 Introduction
+
+---> phone # ----> User 확인
+---> Token---User #42394823904
+---> #42394823904 --> SMS ---> phone # (Twilio)
+---> #42394823904 ---> Token---User ---> 로그인
+
+9.1 Accounts Logic
+
+enter.tsx 에서 phone, email 값 전달받아 데이터 존재여부 체크, 입력 로직 구현
+findUnique, create, upsert 함수 사용
