@@ -312,3 +312,10 @@ tsconfig.json
 
 enter.tsx 에서 phone, email 값 전달받아 데이터 존재여부 체크, 입력 로직 구현
 findUnique, create, upsert 함수 사용
+
+9.2 Token Logic
+Token 모델 생성 - user User @relation(fields: [userId], references: [id])
+Token 모델에 user 컬럼에 connectOrCreate 속성 사용
+
+upsert 사용하는 로직에서 connectOrCreate 사용하여
+유저 있을 경우 토큰 연결, 없을 경우 유저 생성 후 토큰 연결까지 한번에 처리 가능
