@@ -72,21 +72,21 @@ async function handler(
     console.log(user);
   } */
   if (phone) {
-    const message = await twilioClient.messages.create({
+    /* const message = await twilioClient.messages.create({
       from: "+15076167708",
       body: `Your login token is ${payload}`,
       to: process.env.MY_PHONE!,
     });
-    console.log(message);
+    console.log(message); */
   } else if (email) {
-    const email = await mail.send({
+    /* const email = await mail.send({
       from: "gisubsub@gmail.com",
       to: "nam1554@naver.com",
       subject: "Your Carrot Market Verification Email",
       text: `Your token is ${payload}`,
       html: `<strong>Your token is ${payload}</strong>`,
     });
-    console.log(email);
+    console.log(email); */
   }
   return res.json({
     ok: true,
