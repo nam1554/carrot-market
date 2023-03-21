@@ -319,3 +319,45 @@ Token 모델에 user 컬럼에 connectOrCreate 속성 사용
 
 upsert 사용하는 로직에서 connectOrCreate 사용하여
 유저 있을 경우 토큰 연결, 없을 경우 유저 생성 후 토큰 연결까지 한번에 처리 가능
+
+9.3 Twilio Setup
+
+twilio.com
+-> sms, email 등
+
+9.4 Sending SMS
+
+npm i twilio
+
+const twilioClient = twilio(process.env.TWILIO_SID, process.env.TWILIO_TOKEN);
+-> nextjs 가 env 파일을 자동을 처리해줌
+
+문자전송
+const message = await twilioClient.messages.create({
+from: "+15076167708",
+body: `Your login token is ${payload}`,
+to: process.env.MY_PHONE!,
+});
+
+9.5 Sending Email
+
+메일전송
+SendGrid
+가입하고 Sender 인증
+
+npm install --save @sendgrid/mail
+
+mail.setApiKey(process.env.SENDGRID_API_KEY!);
+
+const email = await mail.send({
+from: "gisubsub@gmail.com",
+to: "gisubsub@gmail.com",
+subject: "Your Carrot Market Verification Email",
+text: `Your token is ${payload}`,
+html: `<strong>Your token is ${payload}</strong>`,
+});
+
+9.6 Token UI
+
+user/confirm api 생성
+토큰값 입력 후 confirm UI 수정
