@@ -361,3 +361,33 @@ html: `<strong>Your token is ${payload}</strong>`,
 
 user/confirm api 생성
 토큰값 입력 후 confirm UI 수정
+
+9.7 Serverless Sessions
+
+iron session 서명, 암호화된 쿠키를 사용하는 NodeJS 무상태 세션 도구
+npm install iron-session
+
+handler 를 withIronSessionApiRouter 로 감싸줘서 사용
+req.session.user
+
+findUnique > include user -> realation을 같는 user 정보를 같이 가져올수 있음
+
+토큰에 payload 확인 후 쿠키 저장
+req.session.user = {
+id: exists?.userId,
+};
+await req.session.save();
+
+9.8 Profile Handler
+
+me.tsx -> withIronSessionApiRoute 로 감싸서 req.session.user 확인
+user 정보를 찾을 수 있음
+
+9.9 Cleaning Code
+
+withSession.ts 생성 -> withIronSessionApiRoute 부분 withApiSession 함수로 변경
+
+9.10 NextAuth
+
+next-auth.js.org
+NextAuth 는 설정만 하면 끝남
