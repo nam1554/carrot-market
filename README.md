@@ -391,3 +391,10 @@ withSession.ts 생성 -> withIronSessionApiRoute 부분 withApiSession 함수로
 
 next-auth.js.org
 NextAuth 는 설정만 하면 끝남
+
+10.0 Introduction
+
+10.1 Protected Handlers
+
+withHandler 에 ConfigType으로 isPrivate 추가
+isPrivate 과 req.session.user 로 페이지 접근 제어
