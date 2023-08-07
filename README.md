@@ -398,3 +398,9 @@ NextAuth 는 설정만 하면 끝남
 
 withHandler 에 ConfigType으로 isPrivate 추가
 isPrivate 과 req.session.user 로 페이지 접근 제어
+
+10.2 useUser Hook
+
+useUser Hook 같은 패턴으로 데이터를 불러오는 hook을 만들어서 사용
+router.push 브라우저 히스토리 남음
+router.replace 브라우저 히스토리 안남음
