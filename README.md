@@ -435,3 +435,7 @@ import { Product } from "@prisma/client";
 11.3 See Products
 
 withHandler.ts method -> methods 로 수정
+
+11.4 Product Detail
+
+상품 상세조회 구현
