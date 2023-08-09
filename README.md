@@ -444,3 +444,9 @@ withHandler.ts method -> methods 로 수정
 
 prisma Search API
 OR, AND, contains, not 등등
+
+11.6 Favorite Products
+
+좋아요 기능 구현
+model Fav 추가
+fav api 추가
