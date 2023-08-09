@@ -469,3 +469,7 @@ mutate("/api/users/me", (prev: any) => ({ ok: !prev.ok }), false);
 11.10 Counting Relationships
 
 prisma include, \_count 로 상품 좋아요 수 조회
+
+12.0 Models
+
+Post, Answer, Wondering model 추가
