@@ -421,3 +421,8 @@ prisma-client 연결 수 제한
 client.ts 수정
 
 model Product 생성
+
+11.1 Upload Form
+
+upload.tsx 수정
+textarea.tsx 수정
