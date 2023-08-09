@@ -426,3 +426,8 @@ model Product 생성
 
 upload.tsx 수정
 textarea.tsx 수정
+
+11.2 Upload API
+
+prisma 에서 model 데이터에 대한 타입 제공
+import { Product } from "@prisma/client";
