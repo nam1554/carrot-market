@@ -477,3 +477,7 @@ Post, Answer, Wondering model 추가
 12.1 Forms and Handlers
 
 Write 화면 기능 구현
+
+12.2 Post Detail
+
+Post 상세화면 구현
