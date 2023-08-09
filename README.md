@@ -439,3 +439,8 @@ withHandler.ts method -> methods 로 수정
 11.4 Product Detail
 
 상품 상세조회 구현
+
+11.5 Related Products
+
+prisma Search API
+OR, AND, contains, not 등등
