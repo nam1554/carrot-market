@@ -414,3 +414,10 @@ npm i swr
 
 SWRConfig 추가
 fetcher 를 global로 넘겨줄수 있음
+
+11.0 Product Model
+
+prisma-client 연결 수 제한
+client.ts 수정
+
+model Product 생성
