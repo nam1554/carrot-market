@@ -409,3 +409,8 @@ router.replace 브라우저 히스토리 안남음
 
 stale-while-revalidate HTTP 캐시 무효화 전략
 npm i swr
+
+10.4 useUser Refactor
+
+SWRConfig 추가
+fetcher 를 global로 넘겨줄수 있음
