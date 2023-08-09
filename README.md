@@ -404,3 +404,8 @@ isPrivate 과 req.session.user 로 페이지 접근 제어
 useUser Hook 같은 패턴으로 데이터를 불러오는 hook을 만들어서 사용
 router.push 브라우저 히스토리 남음
 router.replace 브라우저 히스토리 안남음
+
+10.3 SWR
+
+stale-while-revalidate HTTP 캐시 무효화 전략
+npm i swr
