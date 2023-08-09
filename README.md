@@ -431,3 +431,7 @@ textarea.tsx 수정
 
 prisma 에서 model 데이터에 대한 타입 제공
 import { Product } from "@prisma/client";
+
+11.3 See Products
+
+withHandler.ts method -> methods 로 수정
