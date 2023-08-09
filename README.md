@@ -455,3 +455,8 @@ fav api 추가
 
 Optimistic UI Update
 -> 백엔드의 응답을 기다리지 않고 변경사항을 반영
+
+11.8 Bound Mutations
+
+좋아요를 누를 경우 유저에게 즉시 보여주고, 유저에게 변화를 반영해야할때 SWR 캐시를 mutate함
+Bound Mutations 현재화면의 상태를 변경함
