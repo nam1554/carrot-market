@@ -450,3 +450,8 @@ OR, AND, contains, not 등등
 좋아요 기능 구현
 model Fav 추가
 fav api 추가
+
+11.7 Favorite Products part Two
+
+Optimistic UI Update
+-> 백엔드의 응답을 기다리지 않고 변경사항을 반영
