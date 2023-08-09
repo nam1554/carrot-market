@@ -504,3 +504,7 @@ geolocation api 사용하여 게시글에 위치정보 저장
 
 prisma where -> lte, gte
 위치정보가 근처인 게시글만 조회하는 로직 추가
+
+12.8 Geo Bug
+
+위치정보값 null 예외처리
