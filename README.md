@@ -473,3 +473,7 @@ prisma include, \_count 로 상품 좋아요 수 조회
 12.0 Models
 
 Post, Answer, Wondering model 추가
+
+12.1 Forms and Handlers
+
+Write 화면 기능 구현
