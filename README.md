@@ -493,3 +493,9 @@ Post 상세화면 구현
 12.5 All Posts
 
 게시글 리스트 페이지 구현
+
+12.6 useCoords
+
+useCoords 추가
+navigator.geolocation.getCurrentPosition(onSuccess);
+geolocation api 사용하여 게시글에 위치정보 저장
