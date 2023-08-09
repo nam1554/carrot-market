@@ -460,3 +460,8 @@ Optimistic UI Update
 
 좋아요를 누를 경우 유저에게 즉시 보여주고, 유저에게 변화를 반영해야할때 SWR 캐시를 mutate함
 Bound Mutations 현재화면의 상태를 변경함
+
+11.9 Unbound Mutations
+
+mutate("/api/user/me");
+mutate("/api/users/me", (prev: any) => ({ ok: !prev.ok }), false);
