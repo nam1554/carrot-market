@@ -554,3 +554,5 @@ prisma model에 새로운 컬럼 추가하여 db push 할때 기존 데이터 �
 
 product-list 컴포넌트 추가
 판매내역, 구매내역, 관심목록 화면에서 product-list 컴포넌트 사용
+
+##### 13.5 Edit Profile part One
