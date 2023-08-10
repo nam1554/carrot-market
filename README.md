@@ -617,3 +617,8 @@ env 파일에 계정ID, API TOKEN 추가
 ##### 15.5 Cloudflare Upload
 
 응답받은 Direct Upload URL과 함께 file 데이터 포함한 form 데이터 생성하여 request 요청
+
+##### 15.6 Serving Images
+
+Direct Upload URL 요청 후 응답받은 이미지 id 저장
+프로필 이미지 로직 수정
