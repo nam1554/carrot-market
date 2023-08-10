@@ -556,3 +556,5 @@ product-list 컴포넌트 추가
 판매내역, 구매내역, 관심목록 화면에서 product-list 컴포넌트 사용
 
 ##### 13.5 Edit Profile part One
+
+##### 13.6 Edit Profile part Two
