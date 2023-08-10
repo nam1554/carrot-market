@@ -570,3 +570,7 @@ react-hook-form valueAsNumber 옵션 -> number로 변환
 ##### 14.2 Send Message
 
 ##### 14.3 See Messages
+
+##### 14.4 Mutations and Refresh
+
+useSWR refreshInterval 옵션
