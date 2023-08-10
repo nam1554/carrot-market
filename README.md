@@ -608,3 +608,8 @@ https://developers.cloudflare.com/images/cloudflare-images/upload-images/direct-
 ##### 15.3 Cloudflare Setup
 
 env 파일에 계정ID, API TOKEN 추가
+
+##### 15.4 Direct Upload URL
+
+/api/files 구현
+계정ID, 토큰 이용하여 Direct Upload URL 응답받아 리턴
