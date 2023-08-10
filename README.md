@@ -604,3 +604,7 @@ Direct Creator Upload를 사용하면 API 키 또는 토큰을 클라이언트�
 또한 중간 스토리지 버킷 및 이와 관련된 스토리지/송신 비용이 필요하지 않음
 
 https://developers.cloudflare.com/images/cloudflare-images/upload-images/direct-creator-upload/
+
+##### 15.3 Cloudflare Setup
+
+env 파일에 계정ID, API TOKEN 추가
