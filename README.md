@@ -562,3 +562,7 @@ product-list 컴포넌트 추가
 ### 14 STREAMS
 
 ##### 14.0 Upload Form
+
+##### 14.1 Detail Page
+
+react-hook-form valueAsNumber 옵션 -> number로 변환
