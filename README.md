@@ -585,3 +585,9 @@ npx prisma db seed
 prisma take, skip 옵션 -> 페이징처리
 
 new PrismaClient({ log: ["query"] }); 해당 옵션을 주면 서버콘솔에 모든 쿼리 출력
+
+### 15 CLOUDFLARE IMAGES
+
+##### 15.0 Introduction
+
+https://www.cloudflare.com/ko-kr/ 소개
