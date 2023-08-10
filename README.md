@@ -108,6 +108,8 @@ tailwind 3.0 이전 버전에서는 큰 css 파일에서 className을 사용하�
 text-[97851px] text-[#000]
 bg-[url('/vercel.svg')]
 
+### 5 TAILWIND PRACTICE
+
 5.0 Introdution
 
 5.1 Auth Part One
@@ -187,6 +189,8 @@ aspect-square 사각형 비율 -> rounded-full 주면 원을 만들 수 있음
 
 5.19 Conclusions
 
+### 6 DATABASE SETUP
+
 6.0 Before We Start
 
 6.1 What is Prisma
@@ -242,6 +246,8 @@ const client = new PrismaClient(); 는 브라우저단에서 실행될 수 없�
 
 6.7 API Routes
 
+### 7 REACT HOOK FORM
+
 7.0 Introduction
 
 React Hook Form
@@ -278,6 +284,8 @@ setValue,
 reset,
 resetField,
 
+### 8 REFACTORING
+
 8.0 Enter Form
 
 Input 컴포넌트 리팩토링
@@ -300,7 +308,8 @@ tsconfig.json
 "@components/_": ["components/_"]
 }
 
-9 Authentication
+### 9 AUTHENTICATION
+
 9.0 Introduction
 
 ---> phone # ----> User 확인
@@ -392,6 +401,8 @@ withSession.ts 생성 -> withIronSessionApiRoute 부분 withApiSession 함수로
 next-auth.js.org
 NextAuth 는 설정만 하면 끝남
 
+### 10 AUTHORIZATION
+
 10.0 Introduction
 
 10.1 Protected Handlers
@@ -414,6 +425,8 @@ npm i swr
 
 SWRConfig 추가
 fetcher 를 global로 넘겨줄수 있음
+
+### 11 PRODUCTS
 
 11.0 Product Model
 
@@ -470,6 +483,8 @@ mutate("/api/users/me", (prev: any) => ({ ok: !prev.ok }), false);
 
 prisma include, \_count 로 상품 좋아요 수 조회
 
+### 12 동네생활
+
 12.0 Models
 
 Post, Answer, Wondering model 추가
@@ -509,6 +524,8 @@ prisma where -> lte, gte
 
 위치정보값 null 예외처리
 
+### 13 PROFILE
+
 13.0 Models
 
 Profile 화면 기능 model 추가
@@ -518,3 +535,5 @@ prisma enum -> 같은 형태의 모델들은 enum을 사용하여 구현할 수 
 
 prisma model에 새로운 컬럼 추가하여 db push 할때 기존 데이터 있을 경우
 경고 알림과 함께 어떻게 처리할지 선택해야함
+
+13.2 Handlers
