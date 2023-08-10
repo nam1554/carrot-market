@@ -574,3 +574,8 @@ react-hook-form valueAsNumber 옵션 -> number로 변환
 ##### 14.4 Mutations and Refresh
 
 useSWR refreshInterval 옵션
+
+##### 14.5 Seeding
+
+seed.ts 대량 데이터 만들기
+npx prisma db seed
