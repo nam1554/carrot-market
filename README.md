@@ -547,3 +547,5 @@ prisma model에 새로운 컬럼 추가하여 db push 할때 기존 데이터 �
 ##### 13.2 Handlers
 
 ##### 13.3 Profile Page
+
+프로필화면 프론트엔드 구현
