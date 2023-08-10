@@ -596,3 +596,11 @@ https://www.cloudflare.com/ko-kr/ 소개
 
 useForm watch 함수 사용하여 파일 변경을 감지
 URL.createObjectURL()
+
+##### 15.2 Direct Creator Uploads
+
+Cloudflare Direct Creator Upload 이용
+Direct Creator Upload를 사용하면 API 키 또는 토큰을 클라이언트에 노출하지 않고 업로드를 수락할 수 있음
+또한 중간 스토리지 버킷 및 이와 관련된 스토리지/송신 비용이 필요하지 않음
+
+https://developers.cloudflare.com/images/cloudflare-images/upload-images/direct-creator-upload/
