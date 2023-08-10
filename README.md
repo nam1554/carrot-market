@@ -513,3 +513,8 @@ prisma where -> lte, gte
 
 Profile 화면 기능 model 추가
 prisma enum -> 같은 형태의 모델들은 enum을 사용하여 구현할 수 있음
+
+13.1 Reviews
+
+prisma model에 새로운 컬럼 추가하여 db push 할때 기존 데이터 있을 경우
+경고 알림과 함께 어떻게 처리할지 선택해야함
