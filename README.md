@@ -579,3 +579,9 @@ useSWR refreshInterval 옵션
 
 seed.ts 대량 데이터 만들기
 npx prisma db seed
+
+##### 14.6 Pagination
+
+prisma take, skip 옵션 -> 페이징처리
+
+new PrismaClient({ log: ["query"] }); 해당 옵션을 주면 서버콘솔에 모든 쿼리 출력
