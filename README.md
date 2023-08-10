@@ -508,3 +508,8 @@ prisma where -> lte, gte
 12.8 Geo Bug
 
 위치정보값 null 예외처리
+
+13.0 Models
+
+Profile 화면 기능 model 추가
+prisma enum -> 같은 형태의 모델들은 enum을 사용하여 구현할 수 있음
