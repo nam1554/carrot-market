@@ -591,3 +591,8 @@ new PrismaClient({ log: ["query"] }); 해당 옵션을 주면 서버콘솔에 �
 ##### 15.0 Introduction
 
 https://www.cloudflare.com/ko-kr/ 소개
+
+##### 15.1 Image Preview
+
+useForm watch 함수 사용하여 파일 변경을 감지
+URL.createObjectURL()
