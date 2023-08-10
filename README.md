@@ -622,3 +622,9 @@ env 파일에 계정ID, API TOKEN 추가
 
 Direct Upload URL 요청 후 응답받은 이미지 id 저장
 프로필 이미지 로직 수정
+
+##### 15.7 Resizing Images
+
+Cloudflare 이미지는 다양한 사용을 고려하여 이미지 크기를 조정하는 방법을 지정하는 variants을 지원
+최대 20개의 variants
+https://developers.cloudflare.com/images/cloudflare-images/resize-images/
