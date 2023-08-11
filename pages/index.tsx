@@ -6,6 +6,7 @@ import useUser from "@libs/client/useUser";
 import Head from "next/head";
 import useSWR from "swr";
 import { Product } from "@prisma/client";
+import client from "@libs/server/client";
 // import Image from "next/image";
 // import riceCake from "../public/local.jpeg";
 
@@ -20,22 +21,22 @@ interface ProductsResponse {
   products: ProductWithCount[];
 }
 
-const Home: NextPage = () => {
+const Home: NextPage<{ products: ProductWithCount[] }> = ({ products }) => {
   const { user, isLoading } = useUser();
-  const { data } = useSWR<ProductsResponse>("/api/products");
+  // const { data } = useSWR<ProductsResponse>("/api/products");
   return (
     <Layout title="홈" hasTabBar>
       <Head>
         <title>Home</title>
       </Head>
       <div className="flex flex-col space-y-5 divide-y">
-        {data?.products?.map((product) => (
+        {products?.map((product) => (
           <Item
             id={product.id}
             key={product.id}
             title={product.name}
             price={product.price}
-            hearts={product._count.favs}
+            hearts={product._count?.favs}
           />
         ))}
         <FloatingButton href="/products/upload">
@@ -60,5 +61,14 @@ const Home: NextPage = () => {
     </Layout>
   );
 };
+
+export async function getServerSideProps() {
+  const products = await client.product.findMany({});
+  return {
+    props: {
+      products: JSON.parse(JSON.stringify(products)),
+    },
+  };
+}
 
 export default Home;

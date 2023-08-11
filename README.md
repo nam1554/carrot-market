@@ -702,3 +702,5 @@ middleware.ts 구현
 
 nextjs Script 태그 strategy 옵션
 구글애널리틱스 등 외부 스크립트 최적화해줌
+
+##### 19.6 getServerSideProps
