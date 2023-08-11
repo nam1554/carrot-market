@@ -687,3 +687,7 @@ https://play.google.com/store/apps/details?id=com.nabiapp.livenow&hl=en_US&gl=US
 ##### 19.0 Middlewares
 
 middleware.ts 생성
+
+##### 19.1 Responses and Redirections
+
+middleware.ts 구현
