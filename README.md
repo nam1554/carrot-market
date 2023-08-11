@@ -665,3 +665,19 @@ placeholder="blur"
 blurDataURL="https://i.ibb.co/ByhpsFY/blur.png"
 />
 ```
+
+### 17 LIVE STREAMING
+
+##### 17.0 Introduction
+
+https://developers.cloudflare.com/stream/
+
+OBS Studio
+영상 녹화와 실시간 방송을 할 수 있는 무료 및 공개 소프트웨어
+윈도우, 맥 혹은 리눅스 환경에서 빠르고 쉽게 방송 할 수 있음
+https://obsproject.com/ko
+
+Live Now - Live Stream
+https://play.google.com/store/apps/details?id=com.nabiapp.livenow&hl=en_US&gl=US
+
+...17 챕터 생략
