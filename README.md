@@ -630,3 +630,10 @@ Cloudflare 이미지는 다양한 사용을 고려하여 이미지 크기를 조
 https://developers.cloudflare.com/images/cloudflare-images/resize-images/
 
 ##### 15.8 Product Images
+
+### 16 NEXTJS IMAGES
+
+##### 16.0 Introduction
+
+Image Component and Image Optimization
+(이미지 컴포넌트 및 이미지 최적화)
