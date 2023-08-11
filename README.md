@@ -642,3 +642,7 @@ Image Component and Image Optimization
 
 import Image from "next/image";
 placeholder, quality
+
+##### 16.2 Remote Images
+
+next.config.js images > domains 추가
