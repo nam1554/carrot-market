@@ -637,3 +637,8 @@ https://developers.cloudflare.com/images/cloudflare-images/resize-images/
 
 Image Component and Image Optimization
 (이미지 컴포넌트 및 이미지 최적화)
+
+##### 16.1 Local Images
+
+import Image from "next/image";
+placeholder, quality
