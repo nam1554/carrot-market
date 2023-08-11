@@ -651,3 +651,17 @@ next.config.js images > domains 추가
 
 css object-fit
 nextjs Image태그 props layout or height, width
+
+##### 16.4 Conclusions
+
+Remote 이미지에 블러 적용하기
+placeholder를 blur로 지정하면 blurDataURL이 placeholder로 사용됩니다.
+
+```
+< Image
+alt=""
+src={`이미지 URL`}
+placeholder="blur"
+blurDataURL="https://i.ibb.co/ByhpsFY/blur.png"
+/>
+```
