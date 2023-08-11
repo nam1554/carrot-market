@@ -681,3 +681,9 @@ Live Now - Live Stream
 https://play.google.com/store/apps/details?id=com.nabiapp.livenow&hl=en_US&gl=US
 
 ...17 챕터 생략
+
+### NEXTJS DEEP DIVE
+
+##### 19.0 Middlewares
+
+middleware.ts 생성
