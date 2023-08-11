@@ -704,3 +704,8 @@ nextjs Script 태그 strategy 옵션
 구글애널리틱스 등 외부 스크립트 최적화해줌
 
 ##### 19.6 getServerSideProps
+
+##### 19.7 SSR + SWR
+
+SWRConfig fallback 옵션
+-> SWR 캐시에 상품 정보를 먼저 전달
