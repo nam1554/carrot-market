@@ -691,3 +691,5 @@ middleware.ts 생성
 ##### 19.1 Responses and Redirections
 
 middleware.ts 구현
+
+##### 19.2 Dynamic Imports
