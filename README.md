@@ -646,3 +646,8 @@ placeholder, quality
 ##### 16.2 Remote Images
 
 next.config.js images > domains 추가
+
+##### 16.3 Layout Fill
+
+css object-fit
+nextjs Image태그 props layout or height, width
