@@ -12,11 +12,10 @@ import useUser from "@libs/client/useUser";
 interface ProductWithUser extends Product {
   user: User;
 }
-
 interface ItemDetailResponse {
   ok: boolean;
   product: ProductWithUser;
-  relateProducts: Product[];
+  relatedProducts: Product[];
   isLiked: boolean;
 }
 
@@ -38,9 +37,15 @@ const ItemDetail: NextPage = () => {
     <Layout canGoBack>
       <div className="px-4  py-4">
         <div className="mb-8">
-          <div className="h-96 bg-slate-300" />
+          <img
+            src={`https://imagedelivery.net/Ms_D096mn_11Exo0-VFwTw/${data?.product.image}/public`}
+            className="h-96 bg-slate-300"
+          />
           <div className="flex cursor-pointer py-3 border-t border-b items-center space-x-3">
-            <div className="w-12 h-12 rounded-full bg-slate-300" />
+            <img
+              src={`https://imagedelivery.net/Ms_D096mn_11Exo0-VFwTw/${data?.product?.user?.avatar}/avatar`}
+              className="w-12 h-12 rounded-full bg-slate-300"
+            />
             <div>
               <p className="text-sm font-medium text-gray-700">
                 {data?.product?.user?.name}
@@ -57,7 +62,7 @@ const ItemDetail: NextPage = () => {
               {data?.product?.name}
             </h1>
             <span className="text-2xl block mt-3 text-gray-900">
-              {data?.product?.price}
+              ${data?.product?.price}
             </span>
             <p className=" my-6 text-gray-700">{data?.product?.description}</p>
             <div className="flex items-center justify-between space-x-2">
@@ -108,12 +113,12 @@ const ItemDetail: NextPage = () => {
         <div>
           <h2 className="text-2xl font-bold text-gray-900">Similar items</h2>
           <div className=" mt-6 grid grid-cols-2 gap-4">
-            {data?.relateProducts?.map((product) => (
+            {data?.relatedProducts?.map((product) => (
               <div key={product.id}>
                 <div className="h-56 w-full mb-4 bg-slate-300" />
                 <h3 className="text-gray-700 -mb-1">{product.name}</h3>
                 <span className="text-sm font-medium text-gray-900">
-                  {product.price}
+                  ${product.price}
                 </span>
               </div>
             ))}

@@ -628,3 +628,5 @@ Direct Upload URL 요청 후 응답받은 이미지 id 저장
 Cloudflare 이미지는 다양한 사용을 고려하여 이미지 크기를 조정하는 방법을 지정하는 variants을 지원
 최대 20개의 variants
 https://developers.cloudflare.com/images/cloudflare-images/resize-images/
+
+##### 15.8 Product Images
