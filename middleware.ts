@@ -1,4 +1,5 @@
 import { getIronSession } from "iron-session/edge";
+// eslint-disable-next-line @next/next/no-server-import-in-page
 import {
   NextFetchEvent,
   NextRequest,
