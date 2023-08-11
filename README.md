@@ -697,3 +697,8 @@ middleware.ts 구현
 ##### 19.3 Lazy-load Imports
 
 ##### 19.4 \_document and Fonts
+
+##### 19.5 Script Component
+
+nextjs Script 태그 strategy 옵션
+구글애널리틱스 등 외부 스크립트 최적화해줌
