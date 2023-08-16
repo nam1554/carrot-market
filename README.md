@@ -721,3 +721,5 @@ getServerSideProps 를 withSsrSession 로 감싸서 req?.session.user 정보를 
 
 https://www.npmjs.com/package/gray-matter
 blog.tsx 파일을 읽어서 노출
+
+##### 19.11 getStaticPaths part One
