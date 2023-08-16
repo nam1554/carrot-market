@@ -3,7 +3,6 @@ import FloatingButton from "@components/floating-button";
 import Item from "@components/item";
 import Layout from "@components/layout";
 import useUser from "@libs/client/useUser";
-import Head from "next/head";
 import useSWR, { SWRConfig } from "swr";
 import { Product } from "@prisma/client";
 import client from "@libs/server/client";
@@ -26,9 +25,6 @@ const Home: NextPage = () => {
   const { data } = useSWR<ProductsResponse>("/api/products");
   return (
     <Layout title="홈" hasTabBar>
-      <Head>
-        <title>Home</title>
-      </Head>
       <div className="flex flex-col space-y-5 divide-y">
         {data
           ? data?.products?.map((product) => (
