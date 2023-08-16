@@ -725,3 +725,9 @@ blog.tsx 파일을 읽어서 노출
 ##### 19.11 getStaticPaths part One
 
 ##### 19.12 getStaticPaths part Two
+
+##### 19.13 Dynamic getStaticProps
+
+https://github.com/remarkjs/remark/tree/main
+
+npm i unified remark-parse remark-html
