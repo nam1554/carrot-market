@@ -739,3 +739,8 @@ npm i unified remark-parse remark-html
 ### 20 INCREMENTAL SITE REGENERATION
 
 ##### 20.0 Introduction
+
+##### 20.1 ISR part One
+
+Incremental Static Regeneration
+revalidate: 20 속성 추가
