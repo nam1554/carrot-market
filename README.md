@@ -744,3 +744,5 @@ npm i unified remark-parse remark-html
 
 Incremental Static Regeneration
 revalidate: 20 속성 추가
+
+##### 20.2 ISR part Two
