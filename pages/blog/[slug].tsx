@@ -4,7 +4,7 @@ import matter from "gray-matter";
 import { GetStaticProps, NextPage } from "next";
 import remarkHtml from "remark-html";
 import remarkParse from "remark-parse/lib";
-import { unified } from "unified";
+import { Preset, unified } from "unified";
 
 const Post: NextPage<{ post: string; data: any }> = ({ post, data }) => {
   return (
@@ -31,8 +31,8 @@ export function getStaticPaths() {
 export const getStaticProps: GetStaticProps = async (ctx) => {
   const { content, data } = matter.read(`./posts/${ctx.params?.slug}.md`);
   const { value } = await unified()
-    .use(remarkParse)
-    .use(remarkHtml)
+    .use(remarkParse as Preset)
+    .use(remarkHtml as Preset)
     .process(content);
   return {
     props: {
