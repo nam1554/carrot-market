@@ -752,3 +752,8 @@ revalidate: 20 속성 추가
 ##### 20.4 Blocking SSG
 
 getStaticPaths > fallback: "blocking",
+
+##### 20.5 Fallback
+
+getStaticPaths > fallback: "true",
+if (router.isFallback)
