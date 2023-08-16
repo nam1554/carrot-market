@@ -709,3 +709,8 @@ nextjs Script 태그 strategy 옵션
 
 SWRConfig fallback 옵션
 -> SWR 캐시에 상품 정보를 먼저 전달
+
+##### 19.8 SSR + Authentication
+
+withSsrSession 함수 추가 (import withIronSessionSsr)
+getServerSideProps 를 withSsrSession 로 감싸서 req?.session.user 정보를 얻을 수 있음
