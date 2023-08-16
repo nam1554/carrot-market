@@ -746,3 +746,5 @@ Incremental Static Regeneration
 revalidate: 20 속성 추가
 
 ##### 20.2 ISR part Two
+
+##### 20.3 On Demand Revalidation
