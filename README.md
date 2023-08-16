@@ -714,3 +714,5 @@ SWRConfig fallback 옵션
 
 withSsrSession 함수 추가 (import withIronSessionSsr)
 getServerSideProps 를 withSsrSession 로 감싸서 req?.session.user 정보를 얻을 수 있음
+
+##### 19.9 Blog Section
