@@ -735,3 +735,7 @@ npm i unified remark-parse remark-html
 ##### 19.14 Inner HTML
 
 ##### 19.15 Recap
+
+### 20 INCREMENTAL SITE REGENERATION
+
+##### 20.0 Introduction
