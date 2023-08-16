@@ -757,3 +757,9 @@ getStaticPaths > fallback: "blocking",
 
 getStaticPaths > fallback: "true",
 if (router.isFallback)
+
+##### 20.6 Recap
+
+##### 20.7 Code Challenge
+
+/community/[id] 페이지를 SSR, SSG, ISR 등 모두 사용해서 구현해보기
