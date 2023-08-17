@@ -769,3 +769,12 @@ if (router.isFallback)
 ##### 21.0 Suspense
 
 코드에서 로딩 상태를 나타내는 부분을 제거할 수 있게 해주는 api
+
+##### 21.1 Server Components
+
+next.config.js 옵션 추가
+
+experimental: {
+runtime: "nodejs",
+serverComponents: true,
+},

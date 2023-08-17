@@ -4,6 +4,10 @@ const nextConfig = {
   images: {
     domains: ["imagedelivery.net"],
   },
+  experimental: {
+    runtime: "nodejs",
+    serverComponents: true,
+  },
 };
 
 module.exports = nextConfig;
