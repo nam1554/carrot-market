@@ -812,3 +812,5 @@ https://www.prisma.io/docs/guides/other/troubleshooting-orm/help-articles/vercel
 빌드 오류 수정
 
 ##### 22.4 Preview Deployments
+
+##### 22.5 Limits in Vercel
