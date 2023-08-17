@@ -18,7 +18,11 @@ interface ReviewsResponse {
 }
 
 const Reviews = () => {
-  const { data } = useSWR<ReviewsResponse>("/api/reviews");
+  const { data } = useSWR<ReviewsResponse>(
+    //suspense 사용으로 서버에서 한번 fetch 하는데 서버 내에서 상대경로 때문에 에러가 발생
+    //typeof window === "undefined" -> 서버일 경우 null
+    typeof window === "undefined" ? null : "/api/reviews"
+  );
   return (
     <>
       {data?.reviews.map((review) => (

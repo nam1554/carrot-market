@@ -806,3 +806,7 @@ import 하여
 환경변수 입력
 DATABASE_URL 은 planetscale.com 에서 connect 이용
 https://www.prisma.io/docs/guides/other/troubleshooting-orm/help-articles/vercel-caching-issue
+
+##### 22.3 Vercel Deployment part Two
+
+빌드 오류 수정
