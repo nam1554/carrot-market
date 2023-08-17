@@ -763,3 +763,9 @@ if (router.isFallback)
 ##### 20.7 Code Challenge
 
 /community/[id] 페이지를 SSR, SSG, ISR 등 모두 사용해서 구현해보기
+
+### 21 FUTURE: REACT 18
+
+##### 21.0 Suspense
+
+코드에서 로딩 상태를 나타내는 부분을 제거할 수 있게 해주는 api
