@@ -791,3 +791,8 @@ serverComponents: true,
 
 git 처럼 branche 생성할 수 있음
 production 에 사용할 branche 설정하여 스키마 변경 등 보호할 수 있음
+
+##### 22.1 Indexes and Deploys
+
+브랜치의 변경사항을 Deploy 요청하고 배포할 수 있음
+develop 브랜치를 만들어 테스트로 사용. git 과 유사한 형태로 사용할 수 있음
