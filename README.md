@@ -784,3 +784,10 @@ serverComponents: true,
 ##### 21.3 Throwing Our Promise
 
 ##### 21.4 Parallelism
+
+##### 22 DEPLOYING
+
+##### 22.0 Database Branches
+
+git 처럼 branche 생성할 수 있음
+production 에 사용할 branche 설정하여 스키마 변경 등 보호할 수 있음

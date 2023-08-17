@@ -5,9 +5,9 @@ const nextConfig = {
     domains: ["imagedelivery.net"],
   },
   experimental: {
-    runtime: "nodejs",
-    serverComponents: true,
-    appDir: true,
+    // runtime: "nodejs",
+    // serverComponents: true,
+    // appDir: true,
   },
 };
 
