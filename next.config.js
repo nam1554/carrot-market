@@ -7,6 +7,7 @@ const nextConfig = {
   experimental: {
     runtime: "nodejs",
     serverComponents: true,
+    appDir: true,
   },
 };
 
